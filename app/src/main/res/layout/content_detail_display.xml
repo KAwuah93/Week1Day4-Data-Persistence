@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DetailDisplay"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_detail_display">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="fname"
+        android:id="@+id/fnameDisplay"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="lname"
+        app:layout_constraintBottom_toBottomOf="@id/fnameDisplay"
+        android:id="@+id/lNameDisplay"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Street Address"
+        app:layout_constraintBottom_toBottomOf="@id/fnameDisplay"
+        android:id="@+id/strDisplay"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="city"
+        app:layout_constraintBottom_toBottomOf="@id/fnameDisplay"
+        android:id="@+id/cityDisplay"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="state"
+        app:layout_constraintBottom_toBottomOf="@id/fnameDisplay"
+        android:id="@+id/stateDisplay"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="zip"
+        app:layout_constraintBottom_toBottomOf="@id/fnameDisplay"
+        android:id="@+id/zipDisplay"
+        android:textAlignment="center"/>
+
+</LinearLayout>
