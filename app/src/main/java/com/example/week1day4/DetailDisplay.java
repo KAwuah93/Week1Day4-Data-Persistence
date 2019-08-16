@@ -45,10 +45,19 @@ public class DetailDisplay extends AppCompatActivity {
             stateView.setText(passed.getState());
             zipView.setText(passed.getZip());
         }catch(Exception e){
-            
+
         }
 
 
+    }
+
+    public void frmZone(View view){
+        Intent explicitIntent = new Intent(this, MainActivity.class);
+
+
+        //Packaging up everything and shipping it off to the other screen to be rendered`
+        startActivity(explicitIntent);
+        finish();
     }
 
 }

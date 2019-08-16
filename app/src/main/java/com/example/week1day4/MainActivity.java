@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
             //Packaging up everything and shipping it off to the other screen to be rendered
             explicitIntent.putExtras(bundle);
             startActivity(explicitIntent);
+            finish();
 
         //} catch(Exception e){
             Log.d("Transfer ERR", "Submit: Uh oh");

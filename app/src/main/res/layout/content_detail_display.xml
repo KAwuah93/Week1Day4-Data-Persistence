@@ -56,5 +56,12 @@
         app:layout_constraintBottom_toBottomOf="@id/fnameDisplay"
         android:id="@+id/zipDisplay"
         android:textAlignment="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/subZone"
+        android:onClick="frmZone"
+        android:text="Edit/Add Information"
+        />
 
 </LinearLayout>
